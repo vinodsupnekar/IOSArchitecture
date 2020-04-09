@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0D1FEB243DC12F00712C20 /* LoginUseCaseOutputComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D1FEA243DC12F00712C20 /* LoginUseCaseOutputComposerTests.swift */; };
+		DA0D1FED243DC17D00712C20 /* LoginUseCaseOutputComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D1FEC243DC17D00712C20 /* LoginUseCaseOutputComposer.swift */; };
+		DA0D1FEE243DCBA100712C20 /* LoginUseCaseOutputComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D1FEC243DC17D00712C20 /* LoginUseCaseOutputComposer.swift */; };
+		DA0D1FEF243DCDD600712C20 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AFB5243BA5A300D381A0 /* LoginUseCase.swift */; };
+		DA0D1FF1243DF95E00712C20 /* LoginUseCaseFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D1FF0243DF95E00712C20 /* LoginUseCaseFactoryTests.swift */; };
+		DA0D1FF5243E119000712C20 /* LoginUseCaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D1FF2243DFA7A00712C20 /* LoginUseCaseFactory.swift */; };
 		DAB1AF94243BA58200D381A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AF93243BA58200D381A0 /* AppDelegate.swift */; };
 		DAB1AF96243BA58200D381A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AF95243BA58200D381A0 /* SceneDelegate.swift */; };
 		DAB1AF98243BA58200D381A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AF97243BA58200D381A0 /* ViewController.swift */; };
@@ -14,6 +20,10 @@
 		DAB1AF9D243BA58200D381A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB1AF9C243BA58200D381A0 /* Assets.xcassets */; };
 		DAB1AFA0243BA58200D381A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB1AF9E243BA58200D381A0 /* LaunchScreen.storyboard */; };
 		DAB1AFAB243BA58200D381A0 /* CleanIOSArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AFAA243BA58200D381A0 /* CleanIOSArchitectureTests.swift */; };
+		DAB1AFB6243BA5A300D381A0 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AFB5243BA5A300D381A0 /* LoginUseCase.swift */; };
+		DAB1AFB8243BA64B00D381A0 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AFB7243BA64B00D381A0 /* LoginPresenter.swift */; };
+		DAB1AFBA243BA6BE00D381A0 /* CrashyliticsLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AFB9243BA6BE00D381A0 /* CrashyliticsLoginTracker.swift */; };
+		DAB1AFBC243BA72800D381A0 /* FirebaseLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1AFBB243BA72800D381A0 /* FirebaseLoginTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA0D1FEA243DC12F00712C20 /* LoginUseCaseOutputComposerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseOutputComposerTests.swift; sourceTree = "<group>"; };
+		DA0D1FEC243DC17D00712C20 /* LoginUseCaseOutputComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseOutputComposer.swift; sourceTree = "<group>"; };
+		DA0D1FF0243DF95E00712C20 /* LoginUseCaseFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseFactoryTests.swift; sourceTree = "<group>"; };
+		DA0D1FF2243DFA7A00712C20 /* LoginUseCaseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseFactory.swift; sourceTree = "<group>"; };
 		DAB1AF90243BA58200D381A0 /* CleanIOSArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanIOSArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB1AF93243BA58200D381A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB1AF95243BA58200D381A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +52,10 @@
 		DAB1AFA6243BA58200D381A0 /* CleanIOSArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanIOSArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB1AFAA243BA58200D381A0 /* CleanIOSArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanIOSArchitectureTests.swift; sourceTree = "<group>"; };
 		DAB1AFAC243BA58200D381A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB1AFB5243BA5A300D381A0 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		DAB1AFB7243BA64B00D381A0 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		DAB1AFB9243BA6BE00D381A0 /* CrashyliticsLoginTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashyliticsLoginTracker.swift; sourceTree = "<group>"; };
+		DAB1AFBB243BA72800D381A0 /* FirebaseLoginTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLoginTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,12 @@
 				DAB1AF9C243BA58200D381A0 /* Assets.xcassets */,
 				DAB1AF9E243BA58200D381A0 /* LaunchScreen.storyboard */,
 				DAB1AFA1243BA58200D381A0 /* Info.plist */,
+				DAB1AFB5243BA5A300D381A0 /* LoginUseCase.swift */,
+				DAB1AFB7243BA64B00D381A0 /* LoginPresenter.swift */,
+				DAB1AFB9243BA6BE00D381A0 /* CrashyliticsLoginTracker.swift */,
+				DAB1AFBB243BA72800D381A0 /* FirebaseLoginTracker.swift */,
+				DA0D1FEC243DC17D00712C20 /* LoginUseCaseOutputComposer.swift */,
+				DA0D1FF2243DFA7A00712C20 /* LoginUseCaseFactory.swift */,
 			);
 			path = CleanIOSArchitecture;
 			sourceTree = "<group>";
@@ -95,6 +119,8 @@
 			children = (
 				DAB1AFAA243BA58200D381A0 /* CleanIOSArchitectureTests.swift */,
 				DAB1AFAC243BA58200D381A0 /* Info.plist */,
+				DA0D1FEA243DC12F00712C20 /* LoginUseCaseOutputComposerTests.swift */,
+				DA0D1FF0243DF95E00712C20 /* LoginUseCaseFactoryTests.swift */,
 			);
 			path = CleanIOSArchitectureTests;
 			sourceTree = "<group>";
@@ -200,9 +226,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB1AFBA243BA6BE00D381A0 /* CrashyliticsLoginTracker.swift in Sources */,
 				DAB1AF98243BA58200D381A0 /* ViewController.swift in Sources */,
 				DAB1AF94243BA58200D381A0 /* AppDelegate.swift in Sources */,
 				DAB1AF96243BA58200D381A0 /* SceneDelegate.swift in Sources */,
+				DA0D1FF5243E119000712C20 /* LoginUseCaseFactory.swift in Sources */,
+				DA0D1FED243DC17D00712C20 /* LoginUseCaseOutputComposer.swift in Sources */,
+				DAB1AFBC243BA72800D381A0 /* FirebaseLoginTracker.swift in Sources */,
+				DAB1AFB6243BA5A300D381A0 /* LoginUseCase.swift in Sources */,
+				DAB1AFB8243BA64B00D381A0 /* LoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +242,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0D1FEB243DC12F00712C20 /* LoginUseCaseOutputComposerTests.swift in Sources */,
+				DA0D1FF1243DF95E00712C20 /* LoginUseCaseFactoryTests.swift in Sources */,
 				DAB1AFAB243BA58200D381A0 /* CleanIOSArchitectureTests.swift in Sources */,
+				DA0D1FEE243DCBA100712C20 /* LoginUseCaseOutputComposer.swift in Sources */,
+				DA0D1FEF243DCDD600712C20 /* LoginUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
